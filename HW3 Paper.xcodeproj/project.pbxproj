@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3A131E1953C8BF004AC3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A131D1953C8BF004AC3B8 /* Foundation.framework */; };
+		ED3A13201953C8BF004AC3B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A131F1953C8BF004AC3B8 /* CoreGraphics.framework */; };
+		ED3A13221953C8BF004AC3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A13211953C8BF004AC3B8 /* UIKit.framework */; };
+		ED3A13281953C8BF004AC3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3A13261953C8BF004AC3B8 /* InfoPlist.strings */; };
+		ED3A132A1953C8BF004AC3B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A13291953C8BF004AC3B8 /* main.m */; };
+		ED3A132E1953C8BF004AC3B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A132D1953C8BF004AC3B8 /* AppDelegate.m */; };
+		ED3A13301953C8BF004AC3B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3A132F1953C8BF004AC3B8 /* Images.xcassets */; };
+		ED3A13371953C8BF004AC3B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A13361953C8BF004AC3B8 /* XCTest.framework */; };
+		ED3A13381953C8BF004AC3B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A131D1953C8BF004AC3B8 /* Foundation.framework */; };
+		ED3A13391953C8BF004AC3B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED3A13211953C8BF004AC3B8 /* UIKit.framework */; };
+		ED3A13411953C8BF004AC3B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED3A133F1953C8BF004AC3B8 /* InfoPlist.strings */; };
+		ED3A13431953C8BF004AC3B8 /* HW3_PaperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A13421953C8BF004AC3B8 /* HW3_PaperTests.m */; };
+		ED3A134F1953C93F004AC3B8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED3A134D1953C93F004AC3B8 /* MainViewController.m */; };
+		ED3A13501953C93F004AC3B8 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED3A134E1953C93F004AC3B8 /* MainViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED3A133A1953C8BF004AC3B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3A13121953C8BF004AC3B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3A13191953C8BF004AC3B8;
+			remoteInfo = "HW3 Paper";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED3A131A1953C8BF004AC3B8 /* HW3 Paper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW3 Paper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3A131D1953C8BF004AC3B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED3A131F1953C8BF004AC3B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED3A13211953C8BF004AC3B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED3A13251953C8BF004AC3B8 /* HW3 Paper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW3 Paper-Info.plist"; sourceTree = "<group>"; };
+		ED3A13271953C8BF004AC3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED3A13291953C8BF004AC3B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED3A132B1953C8BF004AC3B8 /* HW3 Paper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HW3 Paper-Prefix.pch"; sourceTree = "<group>"; };
+		ED3A132C1953C8BF004AC3B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED3A132D1953C8BF004AC3B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED3A132F1953C8BF004AC3B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED3A13351953C8BF004AC3B8 /* HW3 PaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HW3 PaperTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3A13361953C8BF004AC3B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED3A133E1953C8BF004AC3B8 /* HW3 PaperTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HW3 PaperTests-Info.plist"; sourceTree = "<group>"; };
+		ED3A13401953C8BF004AC3B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED3A13421953C8BF004AC3B8 /* HW3_PaperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HW3_PaperTests.m; sourceTree = "<group>"; };
+		ED3A134C1953C93F004AC3B8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ED3A134D1953C93F004AC3B8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		ED3A134E1953C93F004AC3B8 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3A13171953C8BF004AC3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A13201953C8BF004AC3B8 /* CoreGraphics.framework in Frameworks */,
+				ED3A13221953C8BF004AC3B8 /* UIKit.framework in Frameworks */,
+				ED3A131E1953C8BF004AC3B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3A13321953C8BF004AC3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A13371953C8BF004AC3B8 /* XCTest.framework in Frameworks */,
+				ED3A13391953C8BF004AC3B8 /* UIKit.framework in Frameworks */,
+				ED3A13381953C8BF004AC3B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3A13111953C8BF004AC3B8 = {
+			isa = PBXGroup;
+			children = (
+				ED3A13231953C8BF004AC3B8 /* HW3 Paper */,
+				ED3A133C1953C8BF004AC3B8 /* HW3 PaperTests */,
+				ED3A131C1953C8BF004AC3B8 /* Frameworks */,
+				ED3A131B1953C8BF004AC3B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3A131B1953C8BF004AC3B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A131A1953C8BF004AC3B8 /* HW3 Paper.app */,
+				ED3A13351953C8BF004AC3B8 /* HW3 PaperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3A131C1953C8BF004AC3B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A131D1953C8BF004AC3B8 /* Foundation.framework */,
+				ED3A131F1953C8BF004AC3B8 /* CoreGraphics.framework */,
+				ED3A13211953C8BF004AC3B8 /* UIKit.framework */,
+				ED3A13361953C8BF004AC3B8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED3A13231953C8BF004AC3B8 /* HW3 Paper */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A132C1953C8BF004AC3B8 /* AppDelegate.h */,
+				ED3A132D1953C8BF004AC3B8 /* AppDelegate.m */,
+				ED3A132F1953C8BF004AC3B8 /* Images.xcassets */,
+				ED3A13241953C8BF004AC3B8 /* Supporting Files */,
+				ED3A134C1953C93F004AC3B8 /* MainViewController.h */,
+				ED3A134D1953C93F004AC3B8 /* MainViewController.m */,
+				ED3A134E1953C93F004AC3B8 /* MainViewController.xib */,
+			);
+			path = "HW3 Paper";
+			sourceTree = "<group>";
+		};
+		ED3A13241953C8BF004AC3B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A13251953C8BF004AC3B8 /* HW3 Paper-Info.plist */,
+				ED3A13261953C8BF004AC3B8 /* InfoPlist.strings */,
+				ED3A13291953C8BF004AC3B8 /* main.m */,
+				ED3A132B1953C8BF004AC3B8 /* HW3 Paper-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED3A133C1953C8BF004AC3B8 /* HW3 PaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A13421953C8BF004AC3B8 /* HW3_PaperTests.m */,
+				ED3A133D1953C8BF004AC3B8 /* Supporting Files */,
+			);
+			path = "HW3 PaperTests";
+			sourceTree = "<group>";
+		};
+		ED3A133D1953C8BF004AC3B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED3A133E1953C8BF004AC3B8 /* HW3 PaperTests-Info.plist */,
+				ED3A133F1953C8BF004AC3B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3A13191953C8BF004AC3B8 /* HW3 Paper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3A13461953C8BF004AC3B8 /* Build configuration list for PBXNativeTarget "HW3 Paper" */;
+			buildPhases = (
+				ED3A13161953C8BF004AC3B8 /* Sources */,
+				ED3A13171953C8BF004AC3B8 /* Frameworks */,
+				ED3A13181953C8BF004AC3B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HW3 Paper";
+			productName = "HW3 Paper";
+			productReference = ED3A131A1953C8BF004AC3B8 /* HW3 Paper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED3A13341953C8BF004AC3B8 /* HW3 PaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3A13491953C8BF004AC3B8 /* Build configuration list for PBXNativeTarget "HW3 PaperTests" */;
+			buildPhases = (
+				ED3A13311953C8BF004AC3B8 /* Sources */,
+				ED3A13321953C8BF004AC3B8 /* Frameworks */,
+				ED3A13331953C8BF004AC3B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3A133B1953C8BF004AC3B8 /* PBXTargetDependency */,
+			);
+			name = "HW3 PaperTests";
+			productName = "HW3 PaperTests";
+			productReference = ED3A13351953C8BF004AC3B8 /* HW3 PaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3A13121953C8BF004AC3B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sophie Tang";
+				TargetAttributes = {
+					ED3A13341953C8BF004AC3B8 = {
+						TestTargetID = ED3A13191953C8BF004AC3B8;
+					};
+				};
+			};
+			buildConfigurationList = ED3A13151953C8BF004AC3B8 /* Build configuration list for PBXProject "HW3 Paper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ED3A13111953C8BF004AC3B8;
+			productRefGroup = ED3A131B1953C8BF004AC3B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3A13191953C8BF004AC3B8 /* HW3 Paper */,
+				ED3A13341953C8BF004AC3B8 /* HW3 PaperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3A13181953C8BF004AC3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A13281953C8BF004AC3B8 /* InfoPlist.strings in Resources */,
+				ED3A13501953C93F004AC3B8 /* MainViewController.xib in Resources */,
+				ED3A13301953C8BF004AC3B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3A13331953C8BF004AC3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A13411953C8BF004AC3B8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3A13161953C8BF004AC3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A132E1953C8BF004AC3B8 /* AppDelegate.m in Sources */,
+				ED3A134F1953C93F004AC3B8 /* MainViewController.m in Sources */,
+				ED3A132A1953C8BF004AC3B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3A13311953C8BF004AC3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3A13431953C8BF004AC3B8 /* HW3_PaperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED3A133B1953C8BF004AC3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3A13191953C8BF004AC3B8 /* HW3 Paper */;
+			targetProxy = ED3A133A1953C8BF004AC3B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED3A13261953C8BF004AC3B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3A13271953C8BF004AC3B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED3A133F1953C8BF004AC3B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3A13401953C8BF004AC3B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3A13441953C8BF004AC3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ED3A13451953C8BF004AC3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3A13471953C8BF004AC3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW3 Paper/HW3 Paper-Prefix.pch";
+				INFOPLIST_FILE = "HW3 Paper/HW3 Paper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED3A13481953C8BF004AC3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW3 Paper/HW3 Paper-Prefix.pch";
+				INFOPLIST_FILE = "HW3 Paper/HW3 Paper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED3A134A1953C8BF004AC3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HW3 Paper.app/HW3 Paper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW3 Paper/HW3 Paper-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HW3 PaperTests/HW3 PaperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED3A134B1953C8BF004AC3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HW3 Paper.app/HW3 Paper";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HW3 Paper/HW3 Paper-Prefix.pch";
+				INFOPLIST_FILE = "HW3 PaperTests/HW3 PaperTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3A13151953C8BF004AC3B8 /* Build configuration list for PBXProject "HW3 Paper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3A13441953C8BF004AC3B8 /* Debug */,
+				ED3A13451953C8BF004AC3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3A13461953C8BF004AC3B8 /* Build configuration list for PBXNativeTarget "HW3 Paper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3A13471953C8BF004AC3B8 /* Debug */,
+				ED3A13481953C8BF004AC3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED3A13491953C8BF004AC3B8 /* Build configuration list for PBXNativeTarget "HW3 PaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3A134A1953C8BF004AC3B8 /* Debug */,
+				ED3A134B1953C8BF004AC3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3A13121953C8BF004AC3B8 /* Project object */;
+}
